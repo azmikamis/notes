@@ -7,6 +7,8 @@ git remote add upstream https://github.com/kubeflow/examples.git
 git fetch upstream
 # check current topic branch
 git branch -a
+# switch to correct topic branch
+git checkout master
 # merge main branch of 'upstream' into current topic branch
 git merge upstream/master
 # push changes to 'origin' remote
