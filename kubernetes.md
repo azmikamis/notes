@@ -19,3 +19,12 @@ mv ${HOME}/${KSFILE_VER} ${HOME}/ksonnet
 rm /tmp/${KSFILE_VER}.tar.gz
 export PATH=$PATH:${HOME}/ksonnet
 ```
+### Start Kubeflow on GKE with `kfctl`
+```
+kfctl init ${KFAPP} --platform gcp --project ${PROJECT} --zone ${ZONE}
+cd ${KFAPP}
+kfctl generate platform
+kfctl apply platform
+kfctl generate k8s
+kfctl apply k8s
+```
