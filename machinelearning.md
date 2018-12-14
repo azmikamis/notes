@@ -54,3 +54,5 @@ for pid in TensorBoard.list()['pid']:
 - PS -> DF -> BQ -> CMLE (train) -> CMLE (export)
 - Peakedness - how concentrated distribution is
 - Cardinality - number of values in set
+- ML data recommended to be in single region geographically closest
+- Transfer appliance can hold 1 PB. Use if data > 60 TB (IoT, archival, media, backup images) or more than 1 week to upload or data > 1 TB and connection < 10 MBits.
