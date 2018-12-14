@@ -33,7 +33,9 @@
 - Separate arguments specific to CMLE vs `task.py`.
 ```
 from google.datalab.ml import TensorBoard
-TensorBoard().start()
+TensorBoard().start(...)
+for pid in TensorBoard.list()['pid']:
+  TensorBoard().stop(pid)
 ```
 - More parallel trials will finish earlier but too many parallel trials will not be able to learn from prior trials.
 - Same as naive grid search.
