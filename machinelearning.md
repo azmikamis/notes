@@ -39,3 +39,18 @@ for pid in TensorBoard.list()['pid']:
 ```
 - More parallel trials will finish earlier but too many parallel trials will not be able to learn from prior trials.
 - Same as naive grid search.
+## Production ML systems
+### Components of ML systems
+- Data ingest - Streaming: Pub/Sub, Structured data: BQ, Files: GCS
+- Data analysis - Understand distribution of data
+- Data validation - Is new distribution similar enough to old one? Are all expected features present? Are any unexpected features present? Does feature have expected type? Does expected proportion of examples contain the feature? Do examples have expected number of values for feature?
+- Model quality - Model safeness, Prediction quality
+- Serving - Low-latency, Highly efficient, Scale horizontally, Reliable and robust, Easy to update versions
+- Multi-armed bandit - verify which model versions are best
+### Design decisions
+- Static trained: Easy but will become stale, Dynamic trained: Hard but will adapt to changes
+- GCS (new file) -> GCF -> CMLE (train) -> CMLE (export)
+- GAE (new request) -> CMLE (train) -> CMLE (export) -> CMLE (statistics)
+- PS -> DF -> BQ -> CMLE (train) -> CMLE (export)
+- Peakedness - how concentrated distribution is
+- Cardinality - number of values in set
