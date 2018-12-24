@@ -17,6 +17,7 @@
 - https://www.altoros.com/blog/the-challenges-of-operating-a-machine-learning-model/
 - https://hackernoon.com/a-guide-to-scaling-machine-learning-models-in-production-aa8831163846
 - https://towardsdatascience.com/devops-for-data-scientists-taming-the-unicorn-6410843990de
+- https://thenewstack.io/kubernetes-an-overview/
 ### Videos
 - [Building a Data Science Platform](https://www.youtube.com/watch?v=ARQ32RZ5xfI)
 - [Kubeflow Intro](https://www.youtube.com/watch?v=NrDpQks0e98) ([Slides](https://schd.ws/hosted_files/kccnceu18/9f/kubeflow-intro.pdf))
