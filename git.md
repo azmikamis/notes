@@ -1,3 +1,17 @@
+### Contribute
+```
+# fork project in github
+# clone fork
+git clone https://github.com/azmikamis/examples
+# create feature branch
+git checkout -b new-feature
+# make changes, git status, git diff, etc
+# commit changes
+git commit -m 'New feature'
+# push changes to feature branch in github
+git push origin new-feature
+# create pull request
+```
 ### Keep up with Upstream
 ```
 # add original repository as 'upstream' remote if not yet added
