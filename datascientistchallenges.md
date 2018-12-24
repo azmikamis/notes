@@ -20,6 +20,8 @@
 ### Videos
 - [Building a Data Science Platform](https://www.youtube.com/watch?v=ARQ32RZ5xfI)
 - [Kubeflow Intro](https://www.youtube.com/watch?v=NrDpQks0e98) ([Slides](https://schd.ws/hosted_files/kccnceu18/9f/kubeflow-intro.pdf))
+- [Machine Learning as Code](https://www.youtube.com/watch?v=VXrGp5er1ZE) ([Slides](https://schd.ws/hosted_files/kccna18/f5/External%20Kubecon%20NA%20%28Seattle%29%202018.pdf))
+- [Serving ML Models at Scale with Seldon and Kubeflow](https://www.youtube.com/watch?v=pDlapGtecbY) ([Slides](https://schd.ws/hosted_files/kccnceu18/1a/SeldonKubeconEurope2018.pdf))
 ### Slides
 - [Kubeflow Intro Google London](https://www.oliverwyman.com/content/dam/oliver-wyman/v2/events/2018/March/Google_London_Event/Public%20Introduction%20to%20Kubeflow.pdf)
 - [Hidden Technical Debt](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf) ([Summary](https://hub.packtpub.com/technical-and-hidden-debts-in-machine-learning-google-engineers-give-their-perspective/))
