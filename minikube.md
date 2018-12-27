@@ -5,7 +5,7 @@ sudo apt install libvirt-bin qemu-kvm -y
 ### Add user to `libvirtd` group
 ```
 sudo usermod -aG libvirtd $(whoami)
-# re-ssh to take effect
+newgrp libvirtd
 ```
 ### Install `kubectl`
 ```
