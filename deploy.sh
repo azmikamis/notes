@@ -37,6 +37,4 @@ export PATH=$PATH:${HOME}/ksonnet
 
 minikube config set vm-driver kvm2
 minikube start --cpus 4 --memory 8096 --disk-size=40g
-
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/mandatory.yaml
 minikube addons enable ingress
